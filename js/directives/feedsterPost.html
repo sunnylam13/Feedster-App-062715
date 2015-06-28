@@ -1,4 +1,6 @@
-<img class="avatar" ng-src="{{ prop.author.avatar }}">
-<h3 class="author-name"> {{ prop.author.name }}</h3>
-<p class="comment-text">{{ prop.comment.text }} </p>
-<img class="comment-img" ng-src="{{ prop.comment.img }}">
+<div class="post" ng-repeat="prop in post">
+  <img class="avatar" ng-src="{{ prop.author.avatar }}">
+  <h3 class="author-name"> {{ prop.author.name }}</h3>
+  <p class="comment-text">{{ prop.comment.text }} </p>
+  <img class="comment-img" ng-src="{{ prop.comment.img }}">
+</div>

@@ -6,7 +6,8 @@ app.controller('PostController', ['$scope', function($scope) {
         avatar: 'img/cbj.svg'
       },
       comment: {
-        img: 'img/dog.jpg',
+        // img: 'img/dog.jpg',
+        img: 'http://lorempixel.com/200/200',
         text: 'How much for that dogg in the window?'
       }
     },

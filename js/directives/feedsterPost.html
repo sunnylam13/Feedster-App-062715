@@ -1,4 +1,4 @@
-<img class="avatar"  >
-<h3 class="author-name"> </h3>
-<p class="comment-text"> </p>
-<img class="comment-img"  >
+<img class="avatar" ng-src="{{ prop.author.avatar }}">
+<h3 class="author-name"> {{ prop.author.name }}</h3>
+<p class="comment-text">{{ prop.comment.text }} </p>
+<img class="comment-img" ng-src="{{ prop.comment.img }}">

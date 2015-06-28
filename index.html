@@ -7,7 +7,7 @@
     
     <script src="js/vendor/angular.min.js"></script>
   </head>
-  <body>
+  <body ng-app="FeedsterApp">
     
     <div class="header">
       <div class="container">
@@ -19,7 +19,7 @@
       </div>
     </div>
 
-    <div class="posts">
+    <div class="posts" ng-controller="PostController">
       <div class="container">
 
         <div class="post">
@@ -36,7 +36,7 @@
     <script src="js/controllers/PostController.js"></script>
 
     <!-- Directives -->
-    
+    <script src="js/directives/feedsterPost.js"></script>
     
   </body>
 </html>

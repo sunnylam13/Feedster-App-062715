@@ -24,10 +24,8 @@
 
         <!-- since the name you use in the directive is "post" in the scope property object then post= is what you use...
         post="posts" means you're now linking the isolated scope to the parent's scope of $scope.posts or "posts" -->
-        <div class="post" ng-repeat="prop in post">
-          <feedster-post post="posts"></feedster-post>
-        </div>
-
+        <feedster-post post="posts"></feedster-post>
+        
       </div>
     </div>
 
